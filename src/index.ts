@@ -28,7 +28,6 @@ function createMcpServer() {
   const mcpServer = new McpServer({
     name: 'Vapi MCP',
     version: '0.1.0',
-    capabilities: [],
   });
 
   // Register the login tool - always available
